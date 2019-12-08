@@ -61,6 +61,8 @@
   <link rel="stylesheet" href="/css/hiero.css">
   <link rel="stylesheet" href="/css/glyphs.css">
   
+    <link rel="stylesheet" href="/css/vdonate.css">
+  
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="../../../../css/my.css">
@@ -199,6 +201,19 @@ var themeMenus = {};
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../../../tags/个人提升/">个人提升</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../../../tags/中文/">中文</a></li></ul>
 
       
+        <div id="donation_div"></div>
+
+<script src="../../../../js/vdonate.js"></script>
+<script>
+var a = new Donate({
+  title: '如果觉得文章对您有用，请随意打赏。您的支持将鼓励是我们前行动力!', // 可选参数，打赏标题
+  btnText: '打赏支持', // 可选参数，打赏按钮文字
+  el: document.getElementById('donation_div'),
+  wechatImage: '',
+  alipayImage: ''
+});
+</script>
+      
             
       
     </footer>
@@ -230,6 +245,10 @@ var themeMenus = {};
 <!-- Table of Contents -->
 
     
+
+
+
+
 </section>
         
       </div>
